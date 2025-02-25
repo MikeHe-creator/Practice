@@ -1,0 +1,29 @@
+.screen {
+    -fx-text-fill: Black;
+    -fx-font-size: 40px;
+    -fx-padding: 40px;
+}
+
+.Buttons {
+    -fx-max-width: Infinity;
+    -fx-pref-width: 80px;
+    -fx-pref-height: 80px;
+    -fx-background-color: white;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}
+
+.buttonBuju {
+    -fx-padding: 40px;
+    -fx-hgap: 10px;
+    -fx-vgap: 10px;
+}
+
+.Buttons2 {
+    -fx-max-width: Infinity;
+    -fx-pref-width: 170px;
+    -fx-pref-height: 80px;
+    -fx-background-color: orange;
+    -fx-font-weight: bold;
+    -fx-font-size: 20px;
+}

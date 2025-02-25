@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+
+<VBox alignment="BOTTOM_RIGHT" spacing="10" xmlns:fx="http://javafx.com/fxml"
+      stylesheets="@styleCSS/CalculatorCSS.css" fx:controller="com.mikelearner.caculatorui.CalculatorUIcontroller">
+    <Label alignment="BOTTOM_RIGHT" styleClass="screen" text="0" fx:id="screenTxt"/>
+    <GridPane styleClass="buttonBuju" fx:id="ButtonBJ">
+        <Button styleClass="Buttons" GridPane.columnIndex="0" GridPane.rowIndex="0" textFill="orange">AC</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="1" GridPane.rowIndex="0" textFill="orange">CE</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="2" GridPane.rowIndex="0" textFill="orange">%</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="3" GridPane.rowIndex="0" textFill="orange">÷</Button>
+
+        <Button styleClass="Buttons" GridPane.columnIndex="0" GridPane.rowIndex="1">7</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="1" GridPane.rowIndex="1">8</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="2" GridPane.rowIndex="1">9</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="3" GridPane.rowIndex="1" textFill="orange">×</Button>
+
+        <Button styleClass="Buttons" GridPane.columnIndex="0" GridPane.rowIndex="2">4</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="1" GridPane.rowIndex="2">5</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="2" GridPane.rowIndex="2">6</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="3" GridPane.rowIndex="2" textFill="orange">-</Button>
+
+        <Button styleClass="Buttons" GridPane.columnIndex="0" GridPane.rowIndex="3">1</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="1" GridPane.rowIndex="3">2</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="2" GridPane.rowIndex="3">3</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="3" GridPane.rowIndex="3" textFill="orange">+</Button>
+
+        <Button styleClass="Buttons" GridPane.columnIndex="0" GridPane.rowIndex="4">0</Button>
+        <Button styleClass="Buttons" GridPane.columnIndex="1" GridPane.rowIndex="4">.</Button>
+        <Button styleClass="Buttons2" GridPane.columnIndex="2" GridPane.rowIndex="4" GridPane.columnSpan="2">=</Button>
+    </GridPane>
+</VBox>
